@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrap.com/font-awesome/4.7.0/css
+    /font-awesome.min.css"> -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+<h1>Contact Us</h1>
+    </section>
+    <!-- --contact--- -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7101224.81092784!2d77.68528541870853!3d24.83272858633768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39854b50f0729e8f%3A0x593702d954defe58!2sNaresh%20garden!5e0!3m2!1sen!2sin!4v1651746648962!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i> 
+                    <span>
+                        <h5>
+                            XYZ Road, ABC Building
+                        </h5>
+                        <p>Prayagraj, UP, India</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i> 
+                    <span>
+                        <h5>
+                           +1 01274572735427
+                        </h5>
+                        <p>Monday to Saturday 10 AM to 6 PM</p>
+                    </span>
+                </div>
+            <!-- </div> -->
+
+            <div>
+                <i class="fa fa-envelope"></i> 
+                <span>
+                    <h5>
+                     info@tutorial.com
+                    </h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+            </div>
+            <div class="contact-col">
+                <form action="form_handler.php" method="post">
+                    <input type="text" name="name" id="" placeholder="Enter name" required>
+                    <input type="email" name="email" id="" placeholder="Enter email" required>
+                    <input type="text" name="subject" id="" placeholder="Enter subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+           
+        </div>
+    </section>
+   
+     <!-- ---footer--- -->
+     <section class="footer"><h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quos, voluptas quisquam placeat fuga fugiat quod totam eius expedita obcaecati ab, quam id. <br>Repellat consequatur fuga odio facere aperiam voluptate, accusantium hic! Veniam at provident ad recusandae nulla voluptatibus adipisci?</p>
+
+    
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i>by Atul Yadav</p>
+
+</section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

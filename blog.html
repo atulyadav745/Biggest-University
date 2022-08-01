@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrap.com/font-awesome/4.7.0/css
+    /font-awesome.min.css"> -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+<h1>Our Certificates & Online Programs For 2022</h1>
+    </section>
+    
+   <!-- ---blog---- -->
+   <section class="blog-content">
+       <div class="row">
+           <div class="blog-left">
+               <img src="certificate.jpg" alt="" >
+               <h2>Our Certificates & Online Programs For 2022</h2>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis rem eius repudiandae numquam sequi ut blanditiis, maiores temporibus quisquam quo autem fugiat cupiditate alias ab ipsam consequatur ea ratione tempore, maxime laboriosam recusandae totam laudantium. Totam sed dolor natus cum ab architecto, debitis inventore quos, magni voluptatibus nobis ducimus expedita itaque aperiam? Ipsam ducimus illum voluptatem saepe! Odit laudantium ullam optio excepturi consequuntur. Officia consequatur nobis facere eveniet dolorem ullam harum quae voluptate officiis laboriosam id ea, aliquam odio. Ullam repellat excepturi impedit culpa assumenda temporibus! Beatae dignissimos et odio?</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit repudiandae minima non a dignissimos quod architecto laudantium, facere dolore. Deleniti officia quae possimus hic enim tempora est excepturi accusantium facere. Accusamus, magni earum. Omnis, repellat ipsum odit laborum dolorem, reprehenderit ipsam eligendi fugiat alias autem deleniti assumenda in optio.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi explicabo quod adipisci cum, quo commodi reiciendis sapiente, perferendis voluptates totam nobis eveniet assumenda quis recusandae? Facere fugiat molestiae at voluptatibus repellendus, maxime sequi esse placeat quae in quos, ipsa nesciunt animi eaque quam eius ab doloremque. Illum culpa quidem hic dolores dignissimos vel eum amet repudiandae deleniti, exercitationem, consectetur sapiente. Ipsum ipsam similique eligendi delectus nostrum sapiente ut tempore, cumque vero optio at rerum doloremque? Debitis laboriosam maiores nihil.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maiores esse, aspernatur doloribus quod enim minima cumque quis possimus optio.</p>
+
+               <div class="comment-box">
+                   <h3>Leave a comment</h3>
+                   <form class="comment-form">
+                       <input type="text" name="name" id="name" placeholder="Enter name">
+                       <input type="email" name="email" id="email" placeholder="Enter email">
+                       <textarea rows="5" placeholder="Your comment"></textarea>
+                       <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                   </form>
+               </div>
+           </div>
+           <div class="blog-right">
+               <h3>Post Categories</h3>
+               <div>
+                   <span>Business Analytics</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Mathematics & Computing</span>
+             <span>22</span>
+         </div>
+         <div>
+            <span>Data Science</span>
+         <span>18</span>
+     </div>
+     <div>
+        <span>Machine Learning</span>
+     <span>12</span>
+ </div>
+ <div>
+    <span>SDE Profile</span>
+ <span>29</span>
+</div>
+
+<div>
+    <span>Product Analyst</span>
+ <span>22</span>
+</div>
+<div>
+<span>AutoCAD</span>
+<span>35</span>
+</div>
+<div>
+<span>Commerce</span>
+<span>42</span>
+</div>
+<div>
+<span>Journalism</span>
+<span>49</span>
+</div>
+
+
+           </div>
+       </div>
+   </section>
+    
+
+     <!-- ---footer--- -->
+     <section class="footer"><h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quos, voluptas quisquam placeat fuga fugiat quod totam eius expedita obcaecati ab, quam id. <br>Repellat consequatur fuga odio facere aperiam voluptate, accusantium hic! Veniam at provident ad recusandae nulla voluptatibus adipisci?</p>
+
+    
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i>by Atul Yadav</p>
+
+</section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
